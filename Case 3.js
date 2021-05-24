@@ -8,11 +8,9 @@ switch(choice){
     case UNIT:
         console.log("UNIT: ");
         console.log(num%10);
-        break;
     case TEN:
         console.log("TEN: ");
         console.log(Math.floor(num/10)%10);
-        break;
     case HUNDRED:
         console.log("HUNDRED: ");
         console.log(Math.floor(num/100)%100);
