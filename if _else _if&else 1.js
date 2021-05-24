@@ -1,22 +1,9 @@
-var num = Math.floor(Math.random()*10);
+let num = Math.floor(Math.random()*1000);
+let rem;
 console.log(num);
-if(num==1)
-    console.log("One");
-else if(num==2)
-    console.log("Two");
-else if(num==3)
-    console.log("Three");
-else if(num==4)
-    console.log("Four");
-else if(num==5)
-    console.log("Five");
-else if(num==6)
-    console.log("Six");
-else if(num==7)
-    console.log("Seven");
-else if(num==8)
-    console.log("Eight");
-else if(num==9)
-    console.log("Nine");
-else if(num==0)
-    console.log("Zero");   
+while(num>0){
+    rem = num%10;
+    console.log(rem);
+    num = num/10;
+    num = Math.floor(num);
+} 
